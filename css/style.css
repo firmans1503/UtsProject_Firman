@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0; 
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding: 5px 0;
+    background-color: #37E6F7;
+}
+
+.medsos ul li {
+    display: inline-flex;
+	float: left;
+    color: rgb(245, 240, 240);
+    margin-left: 10px;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0px;
+    color: #17bdeb;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-shadow: 2px 2px 4px #d6c0c0; 
+}
+
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #37E6F7;
+    color: #fff;
+}
+.active {
+    background-color: #37E6F7;
+    color: #fff;
+}
+.banner {
+    height: 60vh;
+    background-image: url(../img/ampera.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.banner:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(55, 230, 247, .6);
+}
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+section {
+    padding: 40px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #37E6F7;
+}
+
+#about p {
+    color: #666;
+    word-spacing: 4px;
+    line-height: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 5px ;
+}
+footer {
+    padding: 30px 0;
+    background-color: #37E6F7;
+    color: #0e0e0c;
+    text-align: center;
+}
